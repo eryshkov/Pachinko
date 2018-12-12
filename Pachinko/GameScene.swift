@@ -40,6 +40,12 @@ class GameScene: SKScene {
     }
     
     func destroy(ball: SKNode) {
+        
+        if let firePartikles = SKEmitterNode(fileNamed: "FireParticles") {
+            firePartikles.position = ball.position
+            addChild(firePartikles)
+        }
+        
         ball.removeFromParent()
     }
     
