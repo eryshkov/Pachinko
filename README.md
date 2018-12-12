@@ -1,8 +1,8 @@
 #  Pachinko
 
-<img src="/screens/1.jpeg" width="20%">    <img src="/screens/2.jpeg" width="20%">    
+<img src="/screens/1.jpg" width="20%">
 
-[Demo video here]()
+[Demo video here](https://youtu.be/kFIQebkWB4k)
 
 ## Main functionality
 * simple SpriteKit game
